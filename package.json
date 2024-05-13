@@ -1,0 +1,29 @@
+{
+  "name": "burpparser",
+  "version": "0.1.0",
+  "description": "Burp Export XML Parser",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/va2dos/BurpParser.git"
+  },
+  "author": "DreWynri",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/va2dos/BurpParser/issues"
+  },
+  "homepage": "https://github.com/va2dos/BurpParser#readme",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6",
+    "js-base64": "^3.7.7",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
